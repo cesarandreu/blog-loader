@@ -1,6 +1,6 @@
 {
   "name": "blog-loader",
-  "description": "watch folder and blog models into rethinkdb",
+  "description": "watch folder and load blog models into rethinkdb",
   "version": "0.1.0",
   "author": {
     "name": "Cesar Andreu",
