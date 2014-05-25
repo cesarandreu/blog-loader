@@ -1,0 +1,31 @@
+{
+  "name": "blog-loader",
+  "description": "watch folder and blog models into rethinkdb",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cesar Andreu",
+    "email": "mail@cesarandreu.com",
+    "url": "cesarandreu.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node --harmony index.js",
+    "dev": "NODE_ENV=development node --harmony index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "co": "^3.0.6",
+    "co-fs": "^1.2.0",
+    "co-fs-plus": "^0.3.1",
+    "gaze": "^0.6.4",
+    "glob": "^3.2.9",
+    "log4js": "^0.6.14",
+    "rethinkdbdash-unstable": "^1.12.12",
+    "thunkify": "^2.1.1"
+  },
+  "engine": {
+    "node": ">=0.11.12"
+  }
+}
