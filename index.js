@@ -104,6 +104,7 @@ function* loaderInitialize() {
 
 co(function* () {
   logger.info('Starting blog-loader');
+  logger.info('Data will be loaded into', config.db.db);
   yield loaderInitialize();
 
   var watcher, folderWatcher;
